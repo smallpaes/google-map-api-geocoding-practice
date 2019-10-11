@@ -1,29 +1,50 @@
-# google_api_practice_geo
+# google_api_practice
+This project is built with Vue.js and Google Map API, and is used to:
+1. Practice utilizing geocoding service to convert an address into geographic coordinates
+2. Practice using the geographic coordinates to generate a Google map with market and info window
+
+
+## Project First Look
+![Project First Look](GoogleChrome-google_api_practice.gif)
+
+<p>&nbsp;</p>
 
 ## Project setup
+### Clone
+
+Clone this repository to your local machine
+
 ```
-npm install
+$ git clone https://github.com/smallpaes/google-map-api-practice-geocoding.git
 ```
 
-### Compiles and hot-reloads for development
+### Setup App
+**1. Enter the project folder**
+
 ```
-npm run serve
+$ cd google-map-api-practice-geocoding
 ```
 
-### Compiles and minifies for production
+**2. Install packages via npm**
+
 ```
-npm run build
+$ npm install
 ```
 
-### Run your tests
+**3. Place Google Map Project API Key**
+> /public/index.html
+
 ```
-npm run test
+<script src="https://maps.googleapis.com/maps/api/js?key=<YOUR_API_KEY>"></script>
 ```
 
-### Lints and fixes files
+**4. Compiles and hot-reloads for development**
 ```
-npm run lint
+$ npm run serve
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+___
+
+
+## Authors
+- [Mike Huang](https://github.com/smallpaes)
