@@ -1,4 +1,4 @@
-# google_api_practice
+# Google Api Practice: Geocoding
 This project is built with Vue.js and Google Map API, and is used to:
 1. Practice utilizing geocoding service to convert an address into geographic coordinates
 2. Practice using the geographic coordinates to generate a Google map with market and info window
